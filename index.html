@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nattaphon Honghin's Resume</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      header h1 {
+        font-size: 2em;
+        color: #333;
+      }
+
+      header p {
+        font-size: 1em;
+        color: #666;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
+
+      section h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #333;
+        border-bottom: 2px solid #4caf50;
+        padding-bottom: 5px;
+        cursor: pointer;
+      }
+
+      .job h3 {
+        font-size: 1.2em;
+        color: #333;
+        margin-bottom: 5px;
+      }
+
+      .job p {
+        font-size: 0.9em;
+        color: #666;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      ul li {
+        margin-bottom: 5px;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Nattaphon Honghin</h1>
+        <p>DevOps and Backend Developer | Cloud Infrastructure Specialist</p>
+        <p>
+          Bangkok, Thailand |
+          <a href="mailto:nattaphon.honghin@gmail.com"
+            >nattaphon.honghin@gmail.com</a
+          >
+          | GitHub: <a href="https://github.com/KRTNP">KRTNP</a>
+        </p>
+      </header>
+
+      <section id="objective">
+        <h2>Career Objective</h2>
+        <p>
+          As a DevOps and backend development specialist with expertise in cloud
+          infrastructure, CI/CD pipeline automation, and API optimization, I aim
+          to leverage my technical skills to drive efficiency and innovation in
+          server and application management.
+        </p>
+      </section>
+
+      <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="job">
+          <h3>Server Systems Administrator (Freelance/Outsourced)</h3>
+          <p>Jan 2021 - Oct 2023 | Various Clients, Remote</p>
+          <p>
+            Managed server systems, set up virtual environments, and optimized
+            performance for game servers, increasing player retention by 35%.
+          </p>
+        </div>
+        <div class="job">
+          <h3>Project Consultant (Freelance/Contract)</h3>
+          <p>July 2022 - Present | Various Clients, Remote</p>
+          <p>
+            Provided consultancy on project management and technology solutions,
+            enhancing productivity and efficiency.
+          </p>
+        </div>
+        <div class="job">
+          <h3>Game Server Developer</h3>
+          <p>July 2018 - Jan 2022 | Various Clients, Remote</p>
+          <p>
+            Developed server-side logic and implemented security protocols to
+            ensure smooth gameplay.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Technologies and Skills</h2>
+        <ul>
+          <li>
+            <strong>Languages:</strong> Python, Java, JavaScript/TypeScript,
+            C/C++, SQL
+          </li>
+          <li>
+            <strong>Frontend:</strong> React.js, Next.js, Svelte.js,
+            TailwindCSS, Bootstrap
+          </li>
+          <li>
+            <strong>Backend & Databases:</strong> Node.js, NestJS, MySQL,
+            PostgreSQL, MongoDB, REST APIs
+          </li>
+          <li>
+            <strong>DevOps & Cloud:</strong> AWS, GCP, Docker, Kubernetes,
+            Terraform, Ansible, GitLab CI, Jenkins
+          </li>
+          <li>
+            <strong>Tools & Platforms:</strong> Git, Firebase, Prometheus,
+            Grafana, Jira, CloudFlare, Linux (Ubuntu, CentOS)
+          </li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Science in Computer Science</strong></p>
+        <p>University of Phayao | Expected Graduation: 2026 | GPA: 3.51</p>
+      </section>
+
+      <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+          <li>AWS Certified Developer – Associate</li>
+          <li>CompTIA Security+</li>
+          <li>Cybersecurity Architect Expert Certification</li>
+          <li>Certified Cloud Security Professional</li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>
+          Phone: 065-927-4927 | Email:
+          <a href="mailto:nattaphon.honghin@gmail.com"
+            >nattaphon.honghin@gmail.com</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      // Smooth scrolling to sections when section headings are clicked
+      document.querySelectorAll("h2").forEach((heading) => {
+        heading.addEventListener("click", () => {
+          document.getElementById(heading.parentElement.id).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
